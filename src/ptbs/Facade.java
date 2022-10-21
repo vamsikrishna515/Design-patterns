@@ -40,7 +40,7 @@ public class Facade implements VisitableItem {
 
     public  void login(String name, String password) throws Exception {
        
-
+        System.out.println("Implementation using Facade Pattern");
     }
 
     void addTrading(Product product, Trading trading) {
@@ -80,7 +80,7 @@ public class Facade implements VisitableItem {
     }
 
     Product selectProduct() {
-        
+        System.out.println("Implementation using Iterator Pattern");
         }
 
        
@@ -100,7 +100,8 @@ public class Facade implements VisitableItem {
 
     @Override
     public void accept(NodeVisitor visitor) {
-        
+        System.out.println("Implementation using Iterator Pattern");
+    
     }
 }
 

@@ -14,7 +14,7 @@ public class Buyer extends Person {
 
     @Override
     public void showProductMenu() {
-        System.out.println("-------Bridge Pattern---------");
+        System.out.println("Implementation using Bridge Pattern");
 
         productMenu.showMenuButtons();
         productMenu.showViewButtons();
